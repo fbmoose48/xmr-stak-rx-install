@@ -34,4 +34,4 @@ sudo cp /opt/xmr-stak/build/bin/start.sh /opt/xmr-stak-1.0.5/build/bin/
 
 # Run
 cd /opt/xmr-stak-1.0.5/build/bin
-sudo ./start.sh
+#sudo ./start.sh
