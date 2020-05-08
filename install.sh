@@ -31,6 +31,7 @@ sudo cp /opt/xmr-stak/build/bin/config.txt /opt/xmr-stak-1.0.5/build/bin/
 sudo cp /opt/xmr-stak/build/bin/cpu.txt /opt/xmr-stak-1.0.5/build/bin/
 sudo cp /opt/xmr-stak/build/bin/pools.txt /opt/xmr-stak-1.0.5/build/bin/
 sudo cp /opt/xmr-stak/build/bin/start.sh /opt/xmr-stak-1.0.5/build/bin/
+sudo cp /opt/xmr-stak/build/bin/start-service.sh /opt/xmr-stak-1.0.5/build/bin/
 
 # Run
 cd /opt/xmr-stak-1.0.5/build/bin
