@@ -9,7 +9,7 @@
 git clone https://github.com/fbmoose48/xmr-stak.git -b xmr-stak-rx
 
 # Unpack TAR
-tar -xvzf ~/xmr-stak.tar.gz
+#tar -xvzf ~/xmr-stak.tar.gz
 
 # Move to /opt
 sudo mv ~/xmr-stak/* /opt/xmr-stak-rx
