@@ -6,7 +6,7 @@
 
 # Download latest xmr-stak-rx
 #wget https://github.com/fbmoose48/xmr-stak/archive/xmr-stak-rx-1.0.5.tar.gz
-git https://github.com/fbmoose48/xmr-stak.git-b xmr-stak-rx
+git https://github.com/fbmoose48/xmr-stak.git -b xmr-stak-rx
 
 # Unpack TAR
 tar -xvzf ~/xmr-stak-rx.tar.gz
