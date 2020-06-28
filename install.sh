@@ -27,10 +27,8 @@ sudo cmake ..
 sudo make install
 
 # Download service files
-git https://github.com/fbmoose48/xmr-stak-systemd-service.git
-
-# Unpack TAR
-tar -xvzf ~/xmr-stak-systemd-service.tar.gz
+cd ~
+git clone https://github.com/fbmoose48/xmr-stak-systemd-service.git
 
 # Create "./start-service.sh" in /opt/xmr-stak-rx/build/bin or other appropriate directory
 
