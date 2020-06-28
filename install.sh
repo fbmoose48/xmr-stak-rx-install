@@ -9,10 +9,10 @@
 git clone https://github.com/fbmoose48/xmr-stak.git -b xmr-stak-rx
 
 # Unpack TAR
-tar -xvzf ~/xmr-stak-rx.tar.gz
+tar -xvzf ~/xmr-stak.tar.gz
 
 # Move to /opt
-sudo mv ~/xmr-stak-rx /opt/xmr-stak-rx
+sudo mv ~/xmr-stak/* /opt/xmr-stak-rx
 
 #Create build dir
 sudo mkdir /opt/xmr-stak-rx/build
