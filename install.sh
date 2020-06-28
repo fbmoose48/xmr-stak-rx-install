@@ -6,7 +6,7 @@
 
 # Download latest xmr-stak-rx
 #wget https://github.com/fbmoose48/xmr-stak/archive/xmr-stak-rx-1.0.5.tar.gz
-git https://github.com/fbmoose48/xmr-stak.git -b xmr-stak-rx
+git clone https://github.com/fbmoose48/xmr-stak.git -b xmr-stak-rx
 
 # Unpack TAR
 tar -xvzf ~/xmr-stak-rx.tar.gz
@@ -27,18 +27,18 @@ sudo cmake ..
 sudo make install
 
 # Download service files
-git https://github.com/fbmoose48/xmr-stak-systemd-service.git -b xmr-stak-service
+git https://github.com/fbmoose48/xmr-stak-systemd-service.git
 
 # Unpack TAR
-tar -xvzf ~/xmr-stak-service.tar.gz
+tar -xvzf ~/xmr-stak-systemd-service.tar.gz
 
 # Create "./start-service.sh" in /opt/xmr-stak-rx/build/bin or other appropriate directory
 
-sudo cp ./xmr-stak-service/start-service.sh /opt/xmr-stak-rx/build/bin
+sudo cp ./xmr-stak-systemd-service/start-service.sh /opt/xmr-stak-rx/build/bin
 
 # Create "/etc/systemd/system/xmr-stak.service"
 
-sudo cp ./xmr-stak-service/xmr-stak.service /etc/systemd/system/
+sudo cp ./xmr-stak-systemd-service/xmr-stak.service /etc/systemd/system/
 
 # Provide necessary permissions to "start-service.sh"
 
